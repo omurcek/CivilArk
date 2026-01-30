@@ -1,2 +1,0 @@
-USERNAME: single_player
-PASSWORD: password
