@@ -1,0 +1,1 @@
+apt install python && python open_source_server_for_developers.py

@@ -1,0 +1,136 @@
+CivilArk Password Security Analysis
+
+CivilArk places great importance on player account security and uses strong algorithms to protect your passwords. Cracking your account password is nearly impossible. Now, let's go through the detailed calculations:
+
+
+---
+
+Calculating Password Combinations
+
+Each password in CivilArk can be between 10 and 32 characters long, with each character chosen from 81 different symbols.
+
+For each password length, the number of possible combinations is calculated as follows:
+
+81^10, 81^11, 81^12, ..., 81^32
+
+By summing these values, we determine the total number of possible password combinations:
+
+Sum from n=10 to n=32 of 81^n
+
+This value represents the total number of unique passwords that can be generated in CivilArk.
+
+
+---
+
+Calculating Storage Space Required
+
+Since each password has a specific length, we can calculate the total storage required by multiplying these combinations by their respective lengths:
+
+Sum from n=10 to n=32 of (81^n * n)
+
+This value gives the total storage space required for all CivilArk passwords.
+
+Now, let’s convert this total byte value into more understandable units.
+
+
+---
+
+Converting Data Size to Larger Units
+
+We will now convert the total byte size into KB, MB, GB, TB, and PB using the following formulas:
+
+Total Bytes / 1024 = KB KB / 1024 = MB MB / 1024 = GB GB / 1024 = TB TB / 1024 = PB
+
+From these calculations, we can see that storing all possible passwords requires an unimaginably large amount of storage.
+
+
+---
+
+Calculating Brute-Force Time Required
+
+Now, let's estimate how long it would take for an attacker to crack a CivilArk password using brute-force.
+
+To find an average brute-force duration, we divide the total number of combinations by two:
+
+Total Combinations / 2
+
+Assuming the attacker can attempt 0.10 passwords per second, we calculate the total time required:
+
+Average Combinations / 0.10
+
+To express this result in years, we convert seconds into minutes, hours, days, and years:
+
+Total Time (seconds) / (60 * 60 * 24 * 365)
+
+This gives us the total number of years required to crack a password using brute-force.
+
+
+---
+
+Additional Security Measures
+
+1. Passwords are never sent to the client in plain text.
+
+This means your password cannot be leaked from CivilArk servers.
+
+
+
+2. Passwords are securely hashed and stored.
+
+Even if the system is compromised, your password remains nearly impossible to decrypt.
+
+
+
+
+
+---
+
+Final Results
+
+CivilArk's password security is exceptionally strong, making brute-force attacks practically impossible.
+
+1. Total number of possible password combinations:
+
+11,937,561,884,960,315,461,164,883,772,180,175,148,999,189,085,208,470,884,749,063
+
+
+2. Total storage required for all possible passwords:
+
+381,852,760,795,168,073,997,385,002,799,233,488,057,167,513,371,223,558,174,277,632 Bytes
+
+KB: 372,903,086,714,031,322,263,071,291,796,126,453,180,827,649,776,585,506,029,568
+
+MB: 364,163,170,619,171,213,147,530,558,394,654,739,434,402,001,734,946,783,232
+
+GB: 355,628,096,307,784,387,839,385,310,932,280,018,978,908,204,819,283,968
+
+TB: 347,293,062,800,570,691,249,399,717,707,304,706,034,090,043,768,832
+
+PB: 339,153,381,641,182,315,673,241,911,823,539,751,986,416,058,368
+
+
+
+3. Estimated brute-force cracking time:
+
+1,892,688,020,827,041,052,125,731,013,273,574,847,604,836,848,675,848,192 years
+
+
+
+This means that even with modern technology, CivilArk passwords cannot be cracked using brute-force attacks.
+
+
+---
+
+Conclusion
+
+CivilArk passwords have an astronomical number of possible combinations (11 octillion).
+
+Storing all possible passwords would require an impossible amount of storage (339 million petabytes).
+
+Brute-force attacks would take 1,892 quintillion years, making them completely infeasible.
+
+
+These calculations demonstrate that CivilArk’s password encryption system is extremely secure, and brute-force attacks are not a realistic threat.
+
+CivilArk ensures the highest level of security for your passwords and keeps your account safe!
+
